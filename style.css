@@ -3,6 +3,7 @@
     height:330px;
     /* border: 1px solid red; */
     box-shadow: 4px 4px 8px gray;
+    text-align: center;
 }
 .box-img{
     width: 100%;
@@ -10,7 +11,7 @@
 }
 .box-btn{
     padding: 5px 15px;
-    background-color:red;
+    background-color:rgb(18, 125, 224);
     border: none;
     color: white;
 }
