@@ -8,4 +8,6 @@ function handleCLikBtn(target){
     selectedItem.appendChild(p);
     total = total + price;
     document.getElementById('total').innerText = total;
+    const discount = parseInt(document.getElementById('disc').innerText);
+    document.getElementById('grandTotal').innerText =  total - discount;
 }
